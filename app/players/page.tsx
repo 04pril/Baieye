@@ -22,9 +22,6 @@ export default function PlayersPage() {
       "내야수": 3,
       "외야수": 4,
       // best-effort for mojibake fallbacks present in file
-      "투수": 1,
-      "내야수": 3,
-      "외야수": 4,
     }
 
     const sorted = [...result].sort((a, b) => {
