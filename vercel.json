@@ -1,0 +1,12 @@
+{
+  "crons": [
+    {
+      "path": "/api/kbo-rankings/refresh",
+      "schedule": "*/5 * * * *"
+    },
+    {
+      "path": "/api/kbo-schedule/refresh",
+      "schedule": "0 15 * * *"
+    }
+  ]
+}
